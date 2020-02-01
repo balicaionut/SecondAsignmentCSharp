@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 using SecondAsignmentCSharp.Exercise1;
 using SecondAsignmentCSharp.Exercise2;
 using SecondAsignmentCSharp.Exercise3;
+using SecondAsignmentCSharp.Exercise4;
+using SecondAsignmentCSharp.Exercise5;
+using SecondAsignmentCSharp.Exercise6;
+using SecondAsignmentCSharp.Exercise7;
 
 namespace SecondAsignmentCSharp
 {
@@ -27,70 +31,63 @@ namespace SecondAsignmentCSharp
 			{
 				case "1":
 					ExerciseOne.Asignare();
-					BoolContinue();
+					Continue();
 					return true;
 				case "2":
 					ExerciseTwo.IsCompiling();
-					BoolContinue();
+					Continue();
 					return true;
 				case "3":
 					ExerciseThree.WhatAndWhy();
-					BoolContinue();
+					Continue();
 					return true;
 				case "4":
-
-					BoolContinue();
+					ExerciseFour.SumIs();
+					Continue();
 					return true;
 				case "5":
-
-					BoolContinue();
+					ExerciseFive.EnFactorial();
+					Continue();
 					return true;
 				case "6":
-
-					BoolContinue();
+					ExerciseSix.MinOfThree();
+					Continue();
 					return true;
 				case "7":
-
-					BoolContinue();
+					ExerciseSeven.EvenOrOdd();
+					Continue();
 					return true;
 				case "8":
 
-					BoolContinue();
+					Continue();
 					return true;
 				case "9":
 
-					BoolContinue();
+					Continue();
 					return true;
 				case "10":
 
-					BoolContinue();
+					Continue();
 					return true;
 				case "11":
 
-					BoolContinue();
-					return true;
-				case "12":
-
-					BoolContinue();
+					Continue();
 					return true;
 				case "0":
 
 					return false;
 				default:
 					Console.WriteLine(" Error: invalid selection");
-					BoolContinue();
+					Continue();
 					return true;
 			}
 		}
-		private static bool BoolContinue()
+		private static void Continue()
 		{
 			Console.WriteLine();
-			Console.WriteLine($" press Enter to continue");
-			switch (Console.ReadLine())
-			{
-				default:
-					return false;
-			}
+			Console.WriteLine($" press any key to continue");
+			Console.WriteLine();
+			Console.ReadKey();
 		}
     }
 }

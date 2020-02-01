@@ -46,6 +46,10 @@
     <Compile Include="Exercise1\ExerciseOne.cs" />
     <Compile Include="Exercise2\ExerciseTwo.cs" />
     <Compile Include="Exercise3\ExerciseThree.cs" />
+    <Compile Include="Exercise4\ExerciseFour.cs" />
+    <Compile Include="Exercise5\ExerciseFive.cs" />
+    <Compile Include="Exercise6\ExerciseSix.cs" />
+    <Compile Include="Exercise7\ExerciseSeven.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
