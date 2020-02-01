@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using SecondAsignmentCSharp.Exercise1;
 using SecondAsignmentCSharp.Exercise2;
 using SecondAsignmentCSharp.Exercise3;
@@ -10,6 +6,7 @@ using SecondAsignmentCSharp.Exercise4;
 using SecondAsignmentCSharp.Exercise5;
 using SecondAsignmentCSharp.Exercise6;
 using SecondAsignmentCSharp.Exercise7;
+using SecondAsignmentCSharp.Exercise8;
 
 namespace SecondAsignmentCSharp
 {
@@ -58,7 +55,7 @@ namespace SecondAsignmentCSharp
 					Continue();
 					return true;
 				case "8":
-
+					ExerciseEight.DayOfTheWeek();
 					Continue();
 					return true;
 				case "9":

@@ -15,7 +15,7 @@ namespace SecondAsignmentCSharp
 			Console.WriteLine($" 5. n Factorial");
 			Console.WriteLine($" 6. Min Of Three");
 			Console.WriteLine($" 7. Even Or Odd");
-			Console.WriteLine($" 8. ");
+			Console.WriteLine($" 8. Day Of The Week");
 			Console.WriteLine($" 9. ");
 			Console.WriteLine($" 10. ");
 			Console.WriteLine($" 11. ");
