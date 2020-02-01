@@ -1,9 +1,9 @@
 # SecondAsignmentCSharp
  Tema 2 curs C#
 
-TEMA: 
-Obs: Temele le puteti face in cate o clasa cu metoda : static void Main(string[] args) in proiectul creat in prima lectie sau intr-un proiect separat, cum doriti. La primele exercitii unde aveti de raspuns la intrebari puteti copia codul din exercitou si raspundeti sub forma de comentarii in fisierul cu codul scris.
+Tema este executată prntr-un meniu din programul principal Program.cs
 
+TEMA: 
 
 1. Fie urmatoarea secventa de cod:
 public class Asignare{
@@ -54,6 +54,7 @@ Console.WriteLine(“Suma este: “ + suma);
 8. Folosind instructiunea switch scrieti un program care sa afiseze ziua saptamanii in functie de numarul acesteia. De exemplu : ziua 1 este echivalenta zilei “Luni”, ziua 2 este “Marti” etc.
 
 
+TEMĂ SUPLIMENTARĂ
 Teme mai sofisticate (pentru cei care considera tema prea usoara - acestea sunt optionale de rezolvat):
 
 9. Scrieti un program care afiseaza primele 4 numere naturale care sunt egale cu suma divizorilor lor. Exemplu: 28 = 1 + 2 + 4 +7 +14 este un numar valid.
