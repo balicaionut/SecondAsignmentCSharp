@@ -8,7 +8,7 @@ namespace SecondAsignmentCSharp.Exercise11
 {
     class ExerciseEleven
     {
-        public static void SeconsConverter()
+        public static void SecondsConverter()
         {
             Console.WriteLine();
             Console.WriteLine($" The program will ask you to input any number of seconds");

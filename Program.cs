@@ -70,7 +70,7 @@ namespace SecondAsignmentCSharp
 					Continue();
 					return true;
 				case "11":
-					ExerciseEleven.SeconsConverter();
+					ExerciseEleven.SecondsConverter();
 					Continue();
 					return true;
 				case "0":

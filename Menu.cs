@@ -17,8 +17,8 @@ namespace SecondAsignmentCSharp
 			Console.WriteLine($" 7. Even Or Odd");
 			Console.WriteLine($" 8. Day Of The Week");
 			Console.WriteLine($" 9. 1st 4 Sums Of Divisors");
-			Console.WriteLine($" 10. ");
-			Console.WriteLine($" 11. ");
+			Console.WriteLine($" 10. Deposit Calculator");
+			Console.WriteLine($" 11. Seconds Converter");
 			Console.WriteLine();
 			Console.WriteLine($" 0. Exit the program!");
 			Console.WriteLine();
