@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SecondAsignmentCSharp.Exercise6
+namespace SecondAsignmentCSharp.Exercise06
 {
     class ExerciseSix
     {

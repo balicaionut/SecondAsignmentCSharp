@@ -43,14 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Exercise1\ExerciseOne.cs" />
-    <Compile Include="Exercise2\ExerciseTwo.cs" />
-    <Compile Include="Exercise3\ExerciseThree.cs" />
-    <Compile Include="Exercise4\ExerciseFour.cs" />
-    <Compile Include="Exercise5\ExerciseFive.cs" />
-    <Compile Include="Exercise6\ExerciseSix.cs" />
-    <Compile Include="Exercise7\ExerciseSeven.cs" />
-    <Compile Include="Exercise8\ExerciseEight.cs" />
+    <Compile Include="Exercise01\ExerciseOne.cs" />
+    <Compile Include="Exercise02\ExerciseTwo.cs" />
+    <Compile Include="Exercise03\ExerciseThree.cs" />
+    <Compile Include="Exercise04\ExerciseFour.cs" />
+    <Compile Include="Exercise05\ExerciseFive.cs" />
+    <Compile Include="Exercise06\ExerciseSix.cs" />
+    <Compile Include="Exercise07\ExerciseSeven.cs" />
+    <Compile Include="Exercise08\ExerciseEight.cs" />
+    <Compile Include="Exercise09\ExerciseNine.cs" />
+    <Compile Include="Exercise10\ExerciseTen.cs" />
+    <Compile Include="Exercise11\ExerciseEleven.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

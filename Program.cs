@@ -1,12 +1,15 @@
 ﻿using System;
-using SecondAsignmentCSharp.Exercise1;
-using SecondAsignmentCSharp.Exercise2;
-using SecondAsignmentCSharp.Exercise3;
-using SecondAsignmentCSharp.Exercise4;
-using SecondAsignmentCSharp.Exercise5;
-using SecondAsignmentCSharp.Exercise6;
-using SecondAsignmentCSharp.Exercise7;
-using SecondAsignmentCSharp.Exercise8;
+using SecondAsignmentCSharp.Exercise01;
+using SecondAsignmentCSharp.Exercise02;
+using SecondAsignmentCSharp.Exercise03;
+using SecondAsignmentCSharp.Exercise04;
+using SecondAsignmentCSharp.Exercise05;
+using SecondAsignmentCSharp.Exercise06;
+using SecondAsignmentCSharp.Exercise07;
+using SecondAsignmentCSharp.Exercise08;
+using SecondAsignmentCSharp.Exercise09;
+using SecondAsignmentCSharp.Exercise10;
+using SecondAsignmentCSharp.Exercise11;
 
 namespace SecondAsignmentCSharp
 {
@@ -59,15 +62,15 @@ namespace SecondAsignmentCSharp
 					Continue();
 					return true;
 				case "9":
-
+					ExerciseNine.FirstFourSumsOfDivisors();
 					Continue();
 					return true;
 				case "10":
-
+					ExerciseTen.DepositCalculator();
 					Continue();
 					return true;
 				case "11":
-
+					ExerciseEleven.SeconsConverter();
 					Continue();
 					return true;
 				case "0":

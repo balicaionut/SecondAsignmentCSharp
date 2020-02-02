@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SecondAsignmentCSharp.Exercise3
+namespace SecondAsignmentCSharp.Exercise03
 {
     class ExerciseThree
     {
@@ -12,6 +12,8 @@ namespace SecondAsignmentCSharp.Exercise3
                     Console.WriteLine(a);
                 else
                     Console.WriteLine(a);
+
+            Console.WriteLine();
             Console.WriteLine($" The program does not display anything");
             Console.WriteLine($" because in the first if a is incremented");
             Console.WriteLine($" to 4 before comparing (<) it with 4");

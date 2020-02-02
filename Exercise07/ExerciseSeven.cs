@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SecondAsignmentCSharp.Exercise7
+namespace SecondAsignmentCSharp.Exercise07
 {
     class ExerciseSeven
     {
@@ -10,17 +10,17 @@ namespace SecondAsignmentCSharp.Exercise7
             Console.WriteLine($" This program will output if a number provided by user is even or odd");
             Console.WriteLine();
             Console.WriteLine($" Please input the number: ");
-            int number = int.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadLine());
 
-            if (number % 2 == 0)
+            if (n % 2 == 0)
             {
                 Console.WriteLine();
-                Console.WriteLine($" {number} is an even number");
+                Console.WriteLine($" {n} is an even number");
             }
             else
             {
                 Console.WriteLine();
-                Console.WriteLine($" {number} is an odd number");
+                Console.WriteLine($" {n} is an odd number");
             }
 
             Console.WriteLine();

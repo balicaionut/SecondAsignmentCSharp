@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SecondAsignmentCSharp.Exercise5
+namespace SecondAsignmentCSharp.Exercise05
 {
     class ExerciseFive
     {
@@ -9,11 +9,14 @@ namespace SecondAsignmentCSharp.Exercise5
             Console.WriteLine($"Please input a number from 1 to 12: ");
             int n = int.Parse(Console.ReadLine());
             int nf = n;
+
             if (n < 1 || n > 12)
             {
                 Console.WriteLine($"Error: Value aout of range!");
                 Console.WriteLine();
-                EnFactorial();
+                Console.ReadKey();
+                Console.WriteLine($"Please input a number from 1 to 12: ");
+                n = int.Parse(Console.ReadLine());
             }
             else
             {
@@ -23,11 +26,13 @@ namespace SecondAsignmentCSharp.Exercise5
                 }
             }
 
+            Console.WriteLine();
             Console.WriteLine($" { n }! is: { nf } ");
             Console.WriteLine();
+
             Console.WriteLine($" The program has an if-else implementation to verify if n < 13 or > 0");
-            Console.WriteLine($" if the conditions are not met the program will ask for a correct value");
-            Console.WriteLine($" if value is correct the program will execute a loop that will resolve the factorial");
+            Console.WriteLine($" If the conditions are not met the program will ask for a correct value.");
+            Console.WriteLine($" If value is correct the program will execute a loop that will resolve the factorial.");
         }
     }
 }

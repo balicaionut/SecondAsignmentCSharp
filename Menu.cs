@@ -16,7 +16,7 @@ namespace SecondAsignmentCSharp
 			Console.WriteLine($" 6. Min Of Three");
 			Console.WriteLine($" 7. Even Or Odd");
 			Console.WriteLine($" 8. Day Of The Week");
-			Console.WriteLine($" 9. ");
+			Console.WriteLine($" 9. 1st 4 Sums Of Divisors");
 			Console.WriteLine($" 10. ");
 			Console.WriteLine($" 11. ");
 			Console.WriteLine();
